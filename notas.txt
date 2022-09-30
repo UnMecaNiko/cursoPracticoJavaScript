@@ -1,0 +1,6 @@
+https://jshero.platzi.com/
+
+Un closure es:
+- Una función que puede recibir un dato y lo almacena en su scope
+- Retorna una función que ocupa ese dato previamente guardado
+

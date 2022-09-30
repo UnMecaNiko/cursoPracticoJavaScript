@@ -33,7 +33,7 @@ EL operador que nos permite sumar o concatenar es +. Este operador nos permite s
 
 ### 3️⃣ Traduce a código JavaScript las variables del ejemplo anterior y deja tu código en los comentarios.
 
-```
+```js
 let nombre = 'Juan David';
 let apellido = 'Catro Gallego';
 let username = 'juandc';
@@ -49,7 +49,7 @@ let deudas = 100;
 - Nombre completo (nombre y apellido)
 - Dinero real (dinero ahorrado menos deudas)
 
-```
+```js
 let nombreCompleto = nombre + ' ' + apellido;
 let dineroReal = dineroAhorrado - deudas;
 ```
@@ -73,7 +73,7 @@ las funciones reciben parámetros cuando las creamos. Y les enviamos argumentos 
 
 ### 2️⃣ Convierte el siguiente código en una función, pero, cambiando cuando sea necesario las variables constantes por parámetros y argumentos en una función:
 
-```
+```js
 const name = "Juan David";
 const lastname = "Castro Gallego";
 const completeName = name + lastname;
@@ -82,7 +82,7 @@ const nickname = "juandc";
 console.log("Mi nombre es " + completeName + ", pero prefiero que me digas " + nickname + ".");
 ```
 
-```
+```js
 function nombreCompleto(name, lastName) {
     return name + ' ' + lastName
 }
@@ -113,7 +113,7 @@ Sí. Las funciones pueden encapsular cualquier bloque de código, incluyendo con
 
 ### 2️⃣ Replica el comportamiento del siguiente código que usa la sentencia switch utilizando if, else y else if:
 
-```
+```js
 const tipoDeSuscripcion = "Basic";
 
 switch (tipoDeSuscripcion) {
@@ -131,7 +131,7 @@ switch (tipoDeSuscripcion) {
        break;
 }
 ```
-```
+```js
 if (tipoDeSuscripcion == 'Free') {
     console.log("Solo puedes tomar los cursos gratis");
 } else if (tipoDeSuscripcion == 'Basic') {
@@ -143,7 +143,6 @@ if (tipoDeSuscripcion == 'Free') {
 }
 ```
 
-
 ### 3️⃣ Replica el comportamiento de tu condicional anterior con if, else y else if, pero ahora solo con if (sin else ni else if).
 
 > 💡 Bonus: si ya eres una experta o experto en el lenguaje, te desafío a comentar cómo replicar este comportamiento con arrays y un solo condicional. 😏
@@ -154,19 +153,33 @@ if (tipoDeSuscripcion == 'Free') {
 ### 1️⃣ Responde las siguientes preguntas en la sección de comentarios:
 
 - ¿Qué es un ciclo?
+La forma de ejecutar un bloque de código mientras una condición sea verdadera o se cumpla
 - ¿Qué tipos de ciclos existen en JavaScript?
+While, do while y for.
 - ¿Qué es un ciclo infinito y por qué es un problema?
+Es cuando la validación de nuestros condicionales nunca se cumple y termina toteando (dañando) la aplicación (e.j. cuando el navegador ya no puede más de tanta ejecución de ese bloque de código).
 - ¿Puedo mezclar ciclos y condicionales?
+Sí, aunque los ciclos son una especie de condionales, nada nos impide agregar más condionales dentro del ciclo.
 
 ### 2️⃣ Replica el comportamiento de los siguientes ciclos for utilizando ciclos while:
 
-```
+```js
 for (let i = 0; i < 5; i++) {
     console.log("El valor de i es: " + i);
 }
 
+while (i < 5) {
+    console.log("El valor de i es: " + i);
+    i++;
+}
+
 for (let i = 10; i >= 2; i--) {
     console.log("El valor de i es: " + i);
+}
+
+while (i >= 2) {
+    console.log("El valor de i es: " + i);
+    i--;
 }
 ```
 
@@ -174,6 +187,14 @@ for (let i = 10; i >= 2; i--) {
 
 > 💡 Pista: puedes usar la función prompt de JavaScript.
 
+si se especifica el lenguaje de programación en markdown este resalta la sintaxis
+
+```js
+while (respuesta != '4') {
+    let pregunta = prompt('¿Cuánto es 2 + 2?')
+    respuesta = pregunta;
+}
+```
 
 ## Listas
 
