@@ -4,16 +4,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Manipulación en java</title>
+    <title>
+        Manipulación del DOM básica - Curso práctico de JavaScript
+    </title>
 </head>
 <body>
-    <h1 class="verde">Manipulación del DOM básica</h1>
+    <h1>Manipulación del DOM básica</h1>
 
-    <p>esto es un parrafo</p>
-    <p class="parrafito">esto es un parrafito con clase</p>
-    <p id="pid">esto es un parrafo con id</p>
-
-    <input type="text" placeholder="escribe algo aquí"  >
+    <input id="calculo1" placeholder="Escribe algo aquí"/>
+    <input onchange="" 
+        id="calculo2" placeholder="Escribe algo aquí"/>
+    <button id="btnCalcular" onclick="btnOnClick()">Calcular</button>
+    
+    <p id="result"></p>
 
     <script src="./script.js"></script>
 </body>

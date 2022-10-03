@@ -3,9 +3,10 @@ https://jshero.platzi.com/
 Un closure es:
 - Una función que puede recibir un dato y lo almacena en su scope
 - Retorna una función que ocupa ese dato previamente guardado
-- NodeJs es el entorno de ejecución de javaScript en el backend
 
-El objetivo de la manipulación del DOM es que nuestro código HTML,  y al mismo tiempo la +agina, cambie cada vez que el usuario iteractúa con ella
+NodeJs es el entorno de ejecución de javaScript en el backend
+
+El objetivo de la manipulación del DOM es que nuestro código HTML,  y al mismo tiempo la página, cambie cada vez que el usuario iteractúa con ella
 
 # DESAFÍOS 
 
