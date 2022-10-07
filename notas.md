@@ -24,9 +24,9 @@ Otra forma de evitar que el formulario asigne por defecto al ultimo botón la pr
 
 # Contribución a proyectos
 
-Para gitignore, se hace primero add el archivo y luego se verifica en gitstatus que se haga seguimiento únicamente a lo necesario
+Para gitignore, se hace primero add el archivo y luego se verifica en gitstatus que se haga seguimiento únicamente a lo necesario.
 
-
+Se recomienda trabajar con la rama main como deafult en github.
 
 # [DESAFÍOS](https://jshero.platzi.com/)
 
