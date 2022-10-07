@@ -8,7 +8,7 @@ Lo que aprenderemos:
 -Conecta JavaScript con HTML.
 -Pon a prueba tus conocimientos de JavaScript.
 
-Para empezar hicimos un [Test incial](/respuestas.MD) donde repasamos todos los conceptos básicos y vamos más allá con actividades bonus.
+Para empezar hicimos un [Test incial](./respuestas.md) donde repasamos todos los conceptos básicos y vamos más allá con actividades bonus.
 
 Lo que verás a continuación son mis apuntes del curso:
 
