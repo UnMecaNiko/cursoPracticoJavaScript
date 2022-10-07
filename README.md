@@ -1,3 +1,16 @@
+# Curso Práctico de JavaScript
+En este curso aprenderás cómo usar JavaScript para resolver problemas reales y pondrás en práctica todos tus conocimientos de JavaScript junto a tu profesor @juandc.
+
+Lo que aprenderemos:
+
+-Despliega tus proyectos a internet con GitHub Pages.
+-Desarrolla software con un flujo de trabajo profesional.
+-Conecta JavaScript con HTML.
+-Pon a prueba tus conocimientos de JavaScript.
+
+Para empezar hicimos un [Test incial](/respuestas.MD) donde repasamos todos los conceptos básicos y vamos más allá con actividades bonus.
+
+Lo que verás a continuación son mis apuntes del curso:
 
 # Manipulación del DOM
 
