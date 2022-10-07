@@ -1,6 +1,9 @@
 
 # Manipulación del DOM
 
+> The Document Object Model is a cross-platform and language-independent interface that treats an XML or HTML document as a tree structure wherein each node is an object representing a part of the document.
+
+
 Un closure es:
 - Una función que puede recibir un dato y lo almacena en su scope
 - Retorna una función que ocupa ese dato previamente guardado
@@ -13,15 +16,15 @@ Los formularios hacer que se recargue la página. El form toma el último botón
 
 El simbolo de pregunta hace referencia al query param.
 
-Al usar 
-```js
- event.preventDefault(); 
-```
-Se cancela la operación de recargar la página y cambiar la url de la misma.
+Al usar `event.preventDefault();` se cancela la operación de recargar la página y cambiar la url de la misma.
 Otra forma de evitar que el formulario asigne por defecto al ultimo botón la propiedad submit es diretamente.
 ```js
 <button type="button" id="btnCalcular">Calcular</button>
 ```
+
+# Contribución a proyectos
+
+Para gitignore, se hace primero add el archivo y luego se verifica en gitstatus que se haga seguimiento únicamente a lo necesario
 
 
 
@@ -35,3 +38,8 @@ Con un bucle for-of, podemos recorrer iterables. Un arreglo por definición es u
 
 En la practica los bucles for-of son más usados y ocacionalmente los bucles for-in.
 
+# Fuentes de información
+
+[Basic Formatting sintax - GitHub](https://docs.github.com/es/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
+
+[gitgnore.io](https://www.toptal.com/developers/gitignore)
