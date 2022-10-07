@@ -28,6 +28,13 @@ Para gitignore, se hace primero add el archivo y luego se verifica en gitstatus 
 
 Se recomienda trabajar con la rama main como deafult en github.
 
+Las buenas prácticas son relativas y no absolutas.
+
+Para abrir un respositorio en VScode se puede usar el comando `code ./ -r` 
+
+Antes de hacer una contribución hay que enternder cómo está el código, luego identificar las posibles mejoras, entender las historia, el equipo, y luego de un buen análisis poder hacer contribuciones.
+
+
 # [DESAFÍOS](https://jshero.platzi.com/)
 
 ## #1 
