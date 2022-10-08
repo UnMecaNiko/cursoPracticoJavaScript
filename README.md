@@ -3,7 +3,7 @@ En este curso aprenderás cómo usar JavaScript para resolver problemas reales y
 
 Lo que aprenderemos:
 
-- [Despliega tus proyectos a internet con GitHub Pages](https://unmecaniko.github.io/curso-frontend-dev-practico-JS/).
+- [Despliega tus proyectos a internet con GitHub Pages]([https://unmecaniko.github.io/curso-frontend-dev-practico-JS/](https://github.com/UnMecaNiko/curso-frontend-dev-practico-JS)).
 - Desarrolla software con un flujo de trabajo profesional.
 - Conecta JavaScript con HTML.
 - Pon a prueba tus conocimientos de JavaScript.
