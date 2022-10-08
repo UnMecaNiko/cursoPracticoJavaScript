@@ -49,8 +49,8 @@ Antes de hacer una contribución hay que enternder cómo está el código, luego
 
 La mayoría de tiempo estaremos leyendo código.
 
->Las otras notas pueden estar en el repo [curso-frontend-dev-practico-JS
-](https://github.com/UnMecaNiko/curso-frontend-dev-practico-JS)
+>Las otras notas pueden estar en el repo ['curso-frontend-dev-practico-JS
+'](https://github.com/UnMecaNiko/curso-frontend-dev-practico-JS)
 
 Para hacer desaparecer o aparcer un menú en una página una técnica puede ser crear una clase que se asigne o quite cada vez que se pulse el botón deseado:
 ```js
